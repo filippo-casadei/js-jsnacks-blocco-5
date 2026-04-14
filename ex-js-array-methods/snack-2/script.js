@@ -6,3 +6,9 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+
+// Stessa cosa della task1 ma qui ho un array di oggetti e mi serve l'elemento name
+
+people.forEach(function(nomeDiPersona) {
+  console.log(nomeDiPersona.name)
+});
